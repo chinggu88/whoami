@@ -616,6 +616,79 @@
   }
   .side-card p { font-size: 14px; color: var(--ink-2); line-height: 1.75; }
   .side-card p strong { background: var(--highlight); padding: 0 3px; color: var(--ink); font-weight: 600; }
+
+  /* B안 — 돈터치: 상태 태그 옆 아이콘 링크 */
+  .side-status-row {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px; margin-bottom: 16px; flex-wrap: wrap;
+  }
+  .side-status-row .status { margin-bottom: 0; }
+  .side-links { display: inline-flex; gap: 10px; align-items: center; }
+  .side-link {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 28px; height: 28px;
+    color: var(--ink-2); text-decoration: none;
+    border-radius: 4px;
+    transition: color 0.15s, background 0.15s;
+  }
+  .side-link:hover { color: var(--ink); background: var(--highlight); }
+  .side-link svg { display: block; }
+
+  /* C안 — 커런시드롭: 하단 액션 버튼 */
+  .side-actions {
+    display: flex; gap: 12px; margin-top: 20px; flex-wrap: wrap;
+  }
+  .side-action {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 13px; color: var(--ink); text-decoration: none;
+    padding: 8px 14px;
+    border: 1px solid var(--ink);
+    letter-spacing: 0.02em;
+    transition: background 0.15s, color 0.15s;
+  }
+  .side-action:hover { background: var(--ink); color: #fff; }
+  .side-action svg { display: block; }
+
+  /* ===== APP ICON PLACEHOLDERS ===== */
+  .app-icon {
+    display: inline-flex; align-items: center; justify-content: center;
+    background: var(--highlight);
+    border: 1px dashed var(--ink-3);
+    border-radius: 16%;
+    color: var(--ink-3);
+    font-family: 'Inter', sans-serif;
+    font-size: 10px; font-weight: 600;
+    letter-spacing: 0.08em;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .icon-placeholder { user-select: none; }
+
+  /* 가안 — 좌측 정사각 (돈터치) */
+  .side-card.has-icon-left {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+  .app-icon-lg { width: 80px; height: 80px; font-size: 11px; }
+  .side-card-body { min-width: 0; }
+
+  /* 나안 — 제목 옆 작게 (언눙) */
+  .has-icon-inline {
+    display: flex; align-items: center; gap: 12px;
+  }
+  .app-icon-sm { width: 32px; height: 32px; font-size: 8px; }
+
+  /* 다안 — 우측 상단 코너 (커런시드롭) */
+  .side-card.has-icon-corner { position: relative; }
+  .app-icon-corner {
+    position: absolute; top: 24px; right: 0;
+    width: 48px; height: 48px; font-size: 9px;
+  }
+  .side-card.has-icon-corner h4,
+  .side-card.has-icon-corner p,
+  .side-card.has-icon-corner .status { padding-right: 60px; }
  
   /* ===== EDUCATION ===== */
   .edu-list { border-top: 1px solid var(--ink); margin-bottom: 96px; }
@@ -767,6 +840,8 @@
     .cert-grid { grid-template-columns: 1fr; }
     .cert-card { padding: 24px 0 !important; border-right: none !important; }
     .side-projects { grid-template-columns: 1fr; }
+    .side-card.has-icon-left { grid-template-columns: 64px 1fr; gap: 16px; }
+    .app-icon-lg { width: 64px; height: 64px; }
     .award-card { grid-template-columns: 1fr; }
     .nav-inner { padding: 18px 20px; }
     .tabs { gap: 16px; overflow-x: auto; }
