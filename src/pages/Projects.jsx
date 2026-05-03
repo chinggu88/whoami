@@ -77,50 +77,7 @@ export default function Projects() {
     </section>
  
     <section>
-      <div class="sec-num">02 / Other Projects</div>
-      <h2 class="sec-title serif"><em>Other</em> works.</h2>
-      <div class="other-projects">
-        <div class="other-card">
-          <div class="o-cat">FX Automation</div>
-          <h4>FX 자동거래 시스템</h4>
-          <p>5개 통화(USD·JPY·EUR·CNY·CAD)의 상관관계를 분석해 직접 헷지 전략을 수립하고, 24시간 무중단 매매 로직으로 옮긴 작업.</p>
-          <div class="mini-stack"><span>Python</span><span>Selenium</span><span>PyAutoGUI</span></div>
-        </div>
-        <div class="other-card">
-          <div class="o-cat">Web Dashboard</div>
-          <h4>cuunit 사용자 대시보드</h4>
-          <p>앱 운영·CS 안정화를 위한 웹 대시보드 구현.</p>
-          <div class="mini-stack"><span>Flutter Web</span></div>
-        </div>
-        <div class="other-card">
-          <div class="o-cat">IoT App</div>
-          <h4>스마트팜 (반려식물 관리)</h4>
-          <p>BLE 다중 기기 데이터 연동, 식물 환경·성장 기록 앱. 일정관리·BLE·백엔드 통신 담당.</p>
-          <div class="mini-stack"><span>Flutter</span><span>Bluetooth</span></div>
-        </div>
-        <div class="other-card">
-          <div class="o-cat">IoT Backend</div>
-          <h4>AI 스마트하우징</h4>
-          <p>공기질 측정기 IoT 모니터링, MQTT 데이터 파이프라인 — 데이터 수집·저장·표출 담당.</p>
-          <div class="mini-stack"><span>Spring</span><span>FastAPI</span><span>MQTT</span></div>
-        </div>
-        <div class="other-card">
-          <div class="o-cat">Service Maintenance</div>
-          <h4>오토오아시스 차량정비</h4>
-          <p>인수인계 받아 유지보수 + 신규 기능 개발 (Spring·MSSQL·CentOS).</p>
-          <div class="mini-stack"><span>Spring</span><span>MSSQL</span><span>CentOS</span></div>
-        </div>
-        <div class="other-card">
-          <div class="o-cat">Government System</div>
-          <h4>여의도연구원 선거지역관리</h4>
-          <p>PM 역할, 문자인증·대용량 batch·Admin·통계·서버셋팅 등 핵심 기능 담당.</p>
-          <div class="mini-stack"><span>Spring</span><span>MySQL</span><span>Python</span></div>
-        </div>
-      </div>
-    </section>
- 
-    <section>
-      <div class="sec-num">03 / Side Projects</div>
+      <div class="sec-num">02 / Side Projects</div>
       <h2 class="sec-title serif"><em>Experiments</em> in AI-era development.</h2>
       <div class="side-projects">
         <div class="side-card has-icon-left">
@@ -199,7 +156,50 @@ export default function Projects() {
         </div>
       </div>
     </section>
- 
+
+    <section>
+      <div class="sec-num">03 / Other Projects</div>
+      <h2 class="sec-title serif"><em>Other</em> works.</h2>
+      <div class="other-projects">
+        <div class="other-card">
+          <div class="o-cat">FX Automation</div>
+          <h4>FX 자동거래 시스템</h4>
+          <p>5개 통화(USD·JPY·EUR·CNY·CAD)의 상관관계를 분석해 직접 헷지 전략을 수립하고, 24시간 무중단 매매 로직으로 옮긴 작업.</p>
+          <div class="mini-stack"><span>Python</span><span>Selenium</span><span>PyAutoGUI</span></div>
+        </div>
+        <div class="other-card">
+          <div class="o-cat">Web Dashboard</div>
+          <h4>cuunit 사용자 대시보드</h4>
+          <p>앱 운영·CS 안정화를 위한 웹 대시보드 구현.</p>
+          <div class="mini-stack"><span>Flutter Web</span></div>
+        </div>
+        <div class="other-card">
+          <div class="o-cat">IoT App</div>
+          <h4>스마트팜 (반려식물 관리)</h4>
+          <p>BLE 다중 기기 데이터 연동, 식물 환경·성장 기록 앱. 일정관리·BLE·백엔드 통신 담당.</p>
+          <div class="mini-stack"><span>Flutter</span><span>Bluetooth</span></div>
+        </div>
+        <div class="other-card">
+          <div class="o-cat">IoT Backend</div>
+          <h4>AI 스마트하우징</h4>
+          <p>공기질 측정기 IoT 모니터링, MQTT 데이터 파이프라인 — 데이터 수집·저장·표출 담당.</p>
+          <div class="mini-stack"><span>Spring</span><span>FastAPI</span><span>MQTT</span></div>
+        </div>
+        <div class="other-card">
+          <div class="o-cat">Service Maintenance</div>
+          <h4>오토오아시스 차량정비</h4>
+          <p>인수인계 받아 유지보수 + 신규 기능 개발 (Spring·MSSQL·CentOS).</p>
+          <div class="mini-stack"><span>Spring</span><span>MSSQL</span><span>CentOS</span></div>
+        </div>
+        <div class="other-card">
+          <div class="o-cat">Government System</div>
+          <h4>여의도연구원 선거지역관리</h4>
+          <p>PM 역할, 문자인증·대용량 batch·Admin·통계·서버셋팅 등 핵심 기능 담당.</p>
+          <div class="mini-stack"><span>Spring</span><span>MySQL</span><span>Python</span></div>
+        </div>
+      </div>
+    </section>
+
   </div>
   )
 }

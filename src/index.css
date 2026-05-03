@@ -87,6 +87,13 @@
   .sec-title em {
     font-style: italic; font-weight: 500;
   }
+
+  /* Projects 탭: 섹션 사이 구분선 */
+  [data-panel="projects"] section + section {
+    margin-top: 96px;
+    padding-top: 96px;
+    border-top: 1px solid var(--line);
+  }
  
   /* page-header for non-About tabs */
   .page-header { margin-bottom: 80px; max-width: 760px; }
