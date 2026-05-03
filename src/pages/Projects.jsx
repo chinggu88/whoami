@@ -81,16 +81,16 @@ export default function Projects() {
       <h2 class="sec-title serif"><em>Other</em> works.</h2>
       <div class="other-projects">
         <div class="other-card">
+          <div class="o-cat">FX Automation</div>
+          <h4>FX 자동거래 시스템</h4>
+          <p>5개 통화(USD·JPY·EUR·CNY·CAD)의 상관관계를 분석해 직접 헷지 전략을 수립하고, 24시간 무중단 매매 로직으로 옮긴 작업.</p>
+          <div class="mini-stack"><span>Python</span><span>Selenium</span><span>PyAutoGUI</span></div>
+        </div>
+        <div class="other-card">
           <div class="o-cat">Web Dashboard</div>
           <h4>cuunit 사용자 대시보드</h4>
           <p>앱 운영·CS 안정화를 위한 웹 대시보드 구현.</p>
           <div class="mini-stack"><span>Flutter Web</span></div>
-        </div>
-        <div class="other-card">
-          <div class="o-cat">Crypto Exchange</div>
-          <h4>코어닥스 거래소 앱</h4>
-          <p>모바일팀 팀장으로 소스 관리, 차트 기능 메인 담당, 데스크탑 거래소 프로그램 진행.</p>
-          <div class="mini-stack"><span>Flutter</span><span>GitHub</span></div>
         </div>
         <div class="other-card">
           <div class="o-cat">IoT App</div>
