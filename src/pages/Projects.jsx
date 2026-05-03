@@ -5,7 +5,7 @@ export default function Projects() {
     <header class="page-header">
       <div class="eyebrow">Projects</div>
       <h1 class="serif">출시한 제품으로<br/><em>증명합니다.</em></h1>
-      <p class="deck">실제 사용자가 매일 쓰고 있는 앱들 — 다운로드 10만+ 야구단 앱부터 일거래액 670억의 환전 앱까지.</p>
+      <p class="deck">다운로드 10만+ 야구단 앱부터 일거래액 670억의 환전 앱, 그리고 <strong>AI 에이전트와 함께 만드는 다음 제품</strong>까지 — 매일 사용자의 손에 닿는 코드를 씁니다.</p>
     </header>
  
     <section>
@@ -19,12 +19,12 @@ export default function Projects() {
             <h3 class="serif"><em>cuunit</em> — 환테크 환전 앱</h3>
             <div class="role-line">개발 PM · 2025.01 — 재직중 · Flagship Product</div>
             <p>안드로이드 <strong>네이티브 위젯</strong>, 신규 아이템 타임프리즈, 휴대폰 본인인증, 농협 자동 입출금, 그리고 <strong>LLM 기반 자연어 매수/매도 및 CS</strong>까지 — 환전을 넘어 환테크라는 카테고리를 만든 제품에 직접 기여한 핵심 기능들.</p>
-            <div class="featured-stack"><span>Flutter</span><span>Native (Android)</span><span>LLM</span></div>
+            <div class="featured-stack"><span>Flutter</span><span>Native (Android)</span><span>LLM</span><span>LangGraph</span></div>
           </div>
           <aside class="featured-impact">
             <div class="impact-item">
               <div class="impact-num serif"><span class="hl">670</span><em>억</em></div>
-              <div class="impact-lbl">일거래액 (30억 → 22배)</div>
+              <div class="impact-lbl">월거래액 (30억 → 22배)</div>
             </div>
             <div class="impact-item">
               <div class="impact-num serif"><span class="hl">1</span><em>만+</em></div>
