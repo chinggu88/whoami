@@ -36,26 +36,6 @@ export default function Projects() {
         <article class="featured-row">
           <div class="featured-num serif">02</div>
           <div class="featured-content">
-            <h3 class="serif"><em>FX</em> 자동거래 시스템</h3>
-            <div class="role-line">5개 통화 24시간 무중단 자동매매 + 헷지전략</div>
-            <p>Selenium 기반 <strong>5개 통화(USD·JPY·EUR·CNY·CAD)</strong> 매수/매도 자동화. XPath와 이미지 인식을 병행한 안정적 운영, Decimal 타입으로 금융 정확도 보장, Slack 실시간 알림과 자동 일일 보고서. <strong>Fernet 대칭키 암호화</strong>와 자동 재로그인으로 24시간 무중단.</p>
-            <div class="featured-stack"><span>Python</span><span>Selenium</span><span>PyAutoGUI</span><span>OpenCV</span></div>
-          </div>
-          <aside class="featured-impact">
-            <div class="impact-item">
-              <div class="impact-num serif"><span class="hl">24</span><em>/7</em></div>
-              <div class="impact-lbl">무중단 운영</div>
-            </div>
-            <div class="impact-item">
-              <div class="impact-num serif"><span class="hl">5</span><em>종</em></div>
-              <div class="impact-lbl">USD · JPY · EUR · CNY · CAD</div>
-            </div>
-          </aside>
-        </article>
- 
-        <article class="featured-row">
-          <div class="featured-num serif">03</div>
-          <div class="featured-content">
             <h3 class="serif">야구단 <em>공식</em> 앱</h3>
             <div class="role-line">1인 개발 · 2022.12 — 2024.07 · 1년 6개월</div>
             <p>티켓링크 API 결제와 효율적 호출 로직, <strong>Phone·Tablet·Flip·Fold 멀티디바이스</strong> 최적화 UI, Firebase Remote Config로 위젯 동적 관리. Method Channel(Android)·UiKitView(iOS) 기반 WebView 구현, Deeplink로 결제 후 앱 복귀까지 — 야구단 공식 앱 전반을 혼자 빌드.</p>
@@ -69,6 +49,26 @@ export default function Projects() {
             <div class="impact-item">
               <div class="impact-num serif"><span class="hl">2.5</span><em>만</em></div>
               <div class="impact-lbl">DAU (일 접속 5만)</div>
+            </div>
+          </aside>
+        </article>
+
+        <article class="featured-row">
+          <div class="featured-num serif">03</div>
+          <div class="featured-content">
+            <h3 class="serif">코어닥스 <em>거래소</em> 앱</h3>
+            <div class="role-line">모바일팀 팀장 · 2022.04 — 2022.12 · 국내 최초 Flutter 거래소</div>
+            <p><strong>국내 최초로 Flutter로 구현한 암호화폐 거래소 앱.</strong> 당시 거래소 앱은 네이티브가 표준이라는 통념이 있었지만, <strong>Flutter로도 거래소 수준의 퀄리티가 가능함을 증명</strong>한 작업. 핵심인 <strong>실시간 차트는 호가·체결·지표를 네이티브에 뒤지지 않는 부드러움</strong>으로 구현했고, 모바일에 그치지 않고 <strong>데스크탑 거래소 프로그램</strong>까지 같은 코드 기반으로 확장. <strong>모바일팀 팀장</strong>으로 소스 관리와 업무 분담을 함께 책임졌다.</p>
+            <div class="featured-stack"><span>Flutter</span><span>Dart</span><span>GetX</span><span>Desktop</span></div>
+          </div>
+          <aside class="featured-impact">
+            <div class="impact-item">
+              <div class="impact-num serif"><span class="hl">국내 최초</span></div>
+              <div class="impact-lbl">Flutter 기반 거래소 앱</div>
+            </div>
+            <div class="impact-item">
+              <div class="impact-num serif"><span class="hl">Mobile</span><em> + Desktop</em></div>
+              <div class="impact-lbl">단일 코드, 두 플랫폼</div>
             </div>
           </aside>
         </article>
