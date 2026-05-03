@@ -80,6 +80,14 @@ export default function Projects() {
       <div class="sec-num">02 / Side Projects</div>
       <h2 class="sec-title serif"><em>Experiments</em> in AI-era development.</h2>
       <div class="side-projects">
+        <div class="side-card has-icon-corner">
+          <div class="app-icon app-icon-corner" aria-label="AI Agent 아이콘">
+            <span class="icon-placeholder">ICON</span>
+          </div>
+          <span class="status">◆ Building · 진행중</span>
+          <h4 class="serif">My-Style Coding Agent</h4>
+          <p>나의 사고 흐름을 <strong>크론(clone)</strong>해 앱을 만드는 AI 에이전트. 단순 코드 생성이 아니라 <strong>내 손에 익은 코드 규칙·네이밍·폴더 구조</strong>를 그대로 따르는 것이 핵심. 새 프로젝트마다 같은 결의 <strong>일관된 보일러플레이트</strong>를 자동 생성해, <strong>눈에 익은 코드</strong> 위에서 바로 작업할 수 있도록 만드는 실험.</p>
+        </div>
         <div class="side-card has-icon-left">
           <div class="app-icon app-icon-lg" aria-label="돈터치 앱 아이콘">
             <span class="icon-placeholder">ICON</span>
