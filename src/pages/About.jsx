@@ -11,7 +11,7 @@ export default function About() {
       <aside class="hero-side">
         {/* <!-- 프로필 사진: src에 본인 사진 경로(예: "profile.jpg")를 넣으면 자동으로 placeholder가 사라집니다 --> */}
         <div class="hero-portrait">
-          <img src="profile.jpg" alt="이강훈 프로필 사진" onerror="this.parentElement.classList.add('no-image'); this.remove();"/>
+          <img src="profile.png" alt="이강훈 프로필 사진" onerror="this.parentElement.classList.add('no-image'); this.remove();"/>
           <div class="portrait-placeholder">
             <span class="ph-initial serif">이</span>
             <span class="ph-caption">PHOTO PLACEHOLDER</span>

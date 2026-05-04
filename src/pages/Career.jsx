@@ -17,45 +17,45 @@ export default function Career() {
           <div class="skill-tags">
             <span class="skill-tag hl">Flutter</span>
             <span class="skill-tag">Dart</span>
-            <span class="skill-tag">GetX</span>
-            <span class="skill-tag">Riverpod</span>
-            <span class="skill-tag">Method Channel</span>
-            <span class="skill-tag">UiKitView</span>
-            <span class="skill-tag">Deeplink</span>
+            <span class="skill-tag">Material</span>
+            <span class="skill-tag">Cupertino</span>
+            <span class="skill-tag">Animation</span>
+            <span class="skill-tag">Responsive UI</span>
+            <span class="skill-tag">상태관리</span>
           </div>
         </div>
         <div class="skill-row">
-          <div class="skill-cat"><strong>Backend</strong>SI 시절부터 다져온 기반</div>
+          <div class="skill-cat"><strong>AI</strong>AI 시대를 먼저 검증</div>
           <div class="skill-tags">
-            <span class="skill-tag">Spring</span>
+            <span class="skill-tag hl">LLM 연동</span>
+            <span class="skill-tag">LangGraph</span>
+            <span class="skill-tag">LangChain</span>
+            <span class="skill-tag">MCP</span>
+            <span class="skill-tag">Vibe Coding</span>
+            <span class="skill-tag hl">Claude</span>
+            <span class="skill-tag">Codex</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-cat"><strong>Etc</strong>그 외 다뤄본 기술</div>
+          <div class="skill-tags">
             <span class="skill-tag">Python</span>
             <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">OpenCV</span>
+            <span class="skill-tag">PyAutoGUI</span>
+            <span class="skill-tag">Selenium</span>
+            <span class="skill-tag">Fernet 암호화</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-cat"><strong>Backend</strong>Java·DB·인프라의 전통 기반</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Spring</span>
             <span class="skill-tag">MSSQL</span>
             <span class="skill-tag">MySQL</span>
             <span class="skill-tag">CentOS</span>
             <span class="skill-tag">MQTT</span>
-          </div>
-        </div>
-        <div class="skill-row">
-          <div class="skill-cat"><strong>Native</strong>Flutter 너머의 영역</div>
-          <div class="skill-tags">
-            <span class="skill-tag">Android Native Widget</span>
-            <span class="skill-tag">iOS WebView</span>
-            <span class="skill-tag">본인인증</span>
-            <span class="skill-tag">FCM</span>
-            <span class="skill-tag">Firebase Remote Config</span>
-            <span class="skill-tag">Firebase Analytics</span>
-          </div>
-        </div>
-        <div class="skill-row">
-          <div class="skill-cat"><strong>AI &amp; Auto</strong>AI 시대를 먼저 검증</div>
-          <div class="skill-tags">
-            <span class="skill-tag">Selenium</span>
-            <span class="skill-tag">PyAutoGUI</span>
-            <span class="skill-tag">OpenCV</span>
-            <span class="skill-tag hl">LLM 연동</span>
-            <span class="skill-tag hl">Claude Code Agent</span>
-            <span class="skill-tag">Vibe Coding</span>
           </div>
         </div>
         <div class="skill-row">
@@ -65,7 +65,6 @@ export default function Career() {
             <span class="skill-tag">Notion</span>
             <span class="skill-tag">Slack</span>
             <span class="skill-tag">GitHub</span>
-            <span class="skill-tag">Fernet 암호화</span>
           </div>
         </div>
       </div>
