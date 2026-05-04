@@ -5,7 +5,7 @@ export default function About() {
     <section class="hero">
       <div>
         <div class="hero-eyebrow"><span class="pulse"></span>Flutter Developer · Seoul · Open</div>
-        <h1 class="serif">사용자가 매일 쓰는 앱을<br/><em>9년째</em> 만들고 있습니다.</h1>
+        <h1 class="serif">어쩌면<br/>지금 당신도,<br/><em>제가 만든 앱</em><br/>보고 있을지도요.</h1>
         <p class="tagline">환테크부터 야구단까지 — Flutter 한 가지로 결제·본인인증·차트·IoT·LLM 매매까지 다양한 도메인의 모바일 제품을 출시·운영해 온 9년차 앱 개발자.</p>
       </div>
       <aside class="hero-side">
@@ -88,8 +88,7 @@ export default function About() {
     <section class="contact-section" id="contact">
       <div class="sec-num">04 / Contact</div>
       <h2 class="sec-title serif"><em>Let&apos;s</em> talk.</h2>
-      <div class="contact-grid">
-        <div class="contact-intro">
+      <div class="contact-intro">
           <h3 class="serif">새로운 <em>제안</em>이나<br/>커피챗 모두 환영합니다.</h3>
           <p>현재 커런시유나이티드에서 재직 중이지만, 흥미로운 프로젝트나 기회는 언제든 듣고 있어요. 가벼운 메시지부터 채용 제안까지 모두 환영합니다. 보통 24시간 이내에 답변드립니다.</p>
           <ul class="quick-links">
@@ -99,44 +98,7 @@ export default function About() {
             <li><span class="l">Response</span><span class="v">~ 24시간 이내</span></li>
           </ul>
         </div>
- 
-        <form class="contact-form" id="contactForm" novalidate>
-          <div class="field-row">
-            <div class="field">
-              <label for="cf-name">Name <span class="req">*</span></label>
-              <input id="cf-name" name="name" type="text" required placeholder="홍길동" autocomplete="name"/>
-            </div>
-            <div class="field">
-              <label for="cf-email">Email <span class="req">*</span></label>
-              <input id="cf-email" name="email" type="email" required placeholder="you@company.com" autocomplete="email"/>
-            </div>
-          </div>
- 
-          <div class="field">
-            <label for="cf-company">Company / Affiliation</label>
-            <input id="cf-company" name="company" type="text" placeholder="회사명 또는 소속 (선택)"/>
-          </div>
- 
-          <div class="field">
-            <label for="cf-subject">Subject <span class="req">*</span></label>
-            <input id="cf-subject" name="subject" type="text" required placeholder="포지션 제안 / 커피챗 요청 / 협업 문의 등"/>
-          </div>
- 
-          <div class="field">
-            <label for="cf-message">Message <span class="req">*</span></label>
-            <textarea id="cf-message" name="message" rows="6" required placeholder="자유롭게 작성해주세요. 회사 소개, 포지션, 채용 절차 등을 알려주시면 더 좋습니다."></textarea>
-          </div>
- 
-          <div class="form-actions">
-            <p class="form-note">전송 시 기본 메일 클라이언트가<br/>자동으로 열립니다 (Chinggu88@gmail.com)</p>
-            <button type="submit" class="send-btn">
-              Send Message <span class="arrow">→</span>
-            </button>
-          </div>
-        </form>
-      </div>
     </section>
- 
   </div>
   )
 }
